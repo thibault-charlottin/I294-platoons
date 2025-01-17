@@ -73,7 +73,8 @@ You can then run the commands in the console.ipynb file
 ## How to use this code
 You have two chaoices, either reuse the results and recreate the analysis results or launch the platoon detection and recreate all inputs for results analysis.<br>
 Once you have downloaded the data, we suggest you to create a 'data' folder and to place the data in it.<br>
-The code is run from the 'Console.ipynb' notebook.<be>
+The code is run from the 'Console.ipynb' notebook.<br>
+
 ##Licence
 This code is unde rlicence EUPL-1.2.
 
