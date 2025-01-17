@@ -75,10 +75,11 @@ You have two chaoices, either reuse the results and recreate the analysis result
 Once you have downloaded the data, we suggest you to create a 'data' folder and to place the data in it.<br>
 The code is run from the 'Console.ipynb' notebook.<br>
 
-##Licence
+Sourcecode can be changed, the python files are in the 'src' folder.<be>
+
+## Licence
 This code is unde rlicence EUPL-1.2.
 
 
-Sourcecode can be changed, the python files are in the 'src' folder.<br>
 
 
