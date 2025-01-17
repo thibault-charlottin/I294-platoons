@@ -42,6 +42,7 @@ stability_counts = df.groupby('num_ACC').agg(
 
 stability_counts['strict_stability_percentage'] *= 100
 stability_counts['weak_stability_percentage'] *= 100
+print(stability_counts)
 fig, (ax1, ax2) = plt.subplots(nrows=2, ncols=1, figsize=(8, 6), sharey=True)
 
 sns.barplot(x=stability_counts.index, y='strict_stability_percentage', data=stability_counts, ax=ax1, palette=['#1F77B4'])
