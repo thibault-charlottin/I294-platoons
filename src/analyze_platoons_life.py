@@ -4,11 +4,10 @@ import seaborn as sns
 sns.set_theme()
 import matplotlib.pyplot as plt
 import numpy as np
-import pymc as pm
-import arviz as az 
 from scipy import stats
 import statsmodels.api as sm
 import ast
+
 test = pd.DataFrame()
 for f in os.listdir('out/platoons/'):
     df = pd.read_csv('out/platoons/'+f)

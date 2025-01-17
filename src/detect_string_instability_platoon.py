@@ -75,21 +75,4 @@ def routine(path_platoon, path_trajs):
         platoon_df = retieve_3_ACC_platoon(platoon_df, trajs_df)
         platoon_df.to_csv(os.path.join(path_platoon, f))
 
-path_platoon = 'out/platoons/'
-path_trajs = 'data/by_run/corrected/'
-routine(path_platoon, path_trajs)
-def routine(path_platoon,path_trajs):
-    files = os.listdir(path_platoon)
-    for f in files :
-        platoon_df = pd.read_csv(path_platoon+f)
-        platoon_df = platoon_df[['time','leader','platoon compo','string compo',
-                                'platoon DTW','ACC',
-                                'platoon with 3 ACC','platoon with 2 ACC','platoon with 1 ACC']]
-        trajs_df = pd.read_csv(path_trajs+f)
-        platoon_df = add_stability_information(trajs_df,platoon_df)
-        platoon_df = retieve_3_ACC_platoon(platoon_df,trajs_df)
-        platoon_df.to_csv(path_platoon+f,index=False)
-    
-path_platoon = 'out/platoons/'
-path_trajs = 'data/by_run/corrected/'
-routine(path_platoon,path_trajs)
+
