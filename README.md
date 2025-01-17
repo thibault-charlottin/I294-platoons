@@ -45,7 +45,7 @@ conda env create -f conda/env.yaml
 
 Activate it:
 ````bash
-conda activate engine_ACC_TRB_2023
+conda activate platoon_env
 ````
 
 You can then run the commands in the console.ipynb file 
@@ -65,7 +65,7 @@ conda env create -f conda/ACC_fuel_windows.yml
 
 Activate it:
 ````bash
-conda activate engine_ACC_TRB_2023
+conda activate platoon_env
 ````
 
 You can then run the commands in the console.ipynb file 
