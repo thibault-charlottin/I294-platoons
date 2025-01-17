@@ -78,7 +78,7 @@ The code is run from the 'Console.ipynb' notebook.<br>
 Sourcecode can be changed, the python files are in the 'src' folder.<be>
 
 ## Licence
-This code is unde rlicence EUPL-1.2.
+This code is under licence EUPL-1.2.
 
 
 
